@@ -1,0 +1,158 @@
+html, body {
+    margin: 0;
+    padding: 0;
+    height: 100%;
+    font-family: 'PT Sans', sans-serif;
+}
+
+#main {
+    height: 100%;
+    position: relative;
+    overflow: visible;
+
+}
+
+.content {
+    height: 100%;
+}
+
+.menu {
+    position: fixed;
+    left: 100px;
+    top: 100px;
+}
+
+a {
+    padding: 5px 10px;
+    background: blue;
+    color: #fff;
+    border-radius: 8px;
+    text-decoration: none;
+    margin-top: 10px;
+    display: inline-block;
+}
+
+a:hover {
+    opacity: 0.6;
+}
+
+.clear-both {
+    clear: both;
+    display: block;
+
+}
+
+/*END-SNIPPETS*/
+
+.add_but:hover {
+
+    cursor: pointer;
+
+}
+
+.remove_but:hover {
+
+    cursor: pointer;
+
+}
+
+.reload_but:hover {
+
+    cursor: pointer;
+
+}
+
+.save_but:hover {
+
+    cursor: pointer;
+
+}
+
+.pano {
+    /*  width: 100px;*/
+    background-color: rgb(60, 156, 220);
+    /* padding: 10px 20px;*/
+    color: #fff;
+    position: absolute;
+}
+
+/*CUSTOM-PANO*/
+.pano .text-box
+{
+    text-align: center;
+    background-color: #19425C;    font-size: 14px;
+
+
+}
+.pano textarea.text-textarea {
+    box-sizing: border-box;
+
+
+    margin: 0px 10px !important;
+    padding: 6px 5px;
+    font-size: 14px;
+}
+.pano .title-box {
+
+    position: relative;
+}
+
+.pano .title-box .title-span
+{
+    padding: 10px 20px;
+    display: inline-block;
+}
+
+
+
+.pano .title-box .title-input {
+    margin: 4px 10px;
+    padding: 6px 5px;
+}
+
+.pano .button-box {
+    position: absolute;
+    top: 10px;
+    right: -15px;
+
+}
+
+.pano p.text-p{
+    padding: 10px 20px;
+    display: inline-block;
+}
+
+.pano .edit-but {
+    background: url("icons/edit_icon.png");
+    width: 22px;
+    height: 22px;
+    top: 0px;
+    left: 0px;
+    display: inline-block;
+    /* z-index: 10000; */
+    background-size: contain;
+    position: absolute;
+
+}
+
+.pano .edit-but:hover {
+    cursor: pointer;
+}
+
+.pano .save-but {
+    background: url("icons/save.png");
+    width: 22px;
+    height: 22px;
+    top: 0px;
+    left: 0px;
+    display: inline-block;
+    /* z-index: 10000; */
+    background-size: contain;
+    position: absolute;
+
+}
+
+.pano .save-but:hover {
+    cursor: pointer;
+
+}
